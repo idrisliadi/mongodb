@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h3>dashboard</h3>
+       
+    </div>
+    <form action="/logout" method="post">
+    <button>logout</button>
+    </form>
+    <div id="content">
+        <form action="/uploader" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>file content upload</legend>
+                <div id="upload">
+                <input type="file" name="file1"> <br>
+                <input type="text" name="imgTitle" placeholder="image title"><br>
+                <textarea name="img_desc" cols="8" rows="8" placeholder="image description"></textarea>
+                </div>
+                <div class="controls">
+                    <input type="reset" value="reset">
+                    <input type="submit" value="upload">
+                </div>
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>

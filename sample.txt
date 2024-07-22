@@ -1,0 +1,32 @@
+  // if(username.length>0 || password.length>0 || confirmpwd.length>0 || email.length>0){
+    //     if(password === confirmpwd){
+    //         // const hash = await bcrypt.hash(password, 10)
+    //         // const profile = {
+    //         //     username:username,
+    //         //     password:hash,
+    //         //     email:email
+    //         // }
+    //         jwt.sign(profile, "secret", (error, token)=>{
+    //             if(error){
+    //                 res.send({
+    //                     message:"unable to generate token",
+    //                     status:"authorization failed"
+    //                 })
+    //             }else{
+    //                 res.send({
+    //                     message:"registration successfull",
+    //                     status:"successfull",
+    //                     token:token
+    //                 })
+    //             }
+                
+    //             // res.cookie("token", token).redirect("/login")
+    //         })
+            // res.send({
+            //     password:hash
+            // })
+       // }
+    //     res.send("pass mismatched")
+    // }else{
+    //     res.send("no detail passed")
+    // }
